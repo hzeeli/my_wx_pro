@@ -1,0 +1,47 @@
+<!--pages/contact/contact.wxml-->
+<image class='top-img' src='http://131900.s81i.faiusr.com/2/106/AFEIvIYIEAIYACCl7bDXBSij0oFNMO4FOPwCQGo.jpg'></image>
+<view class='container-c'>
+  <view class='con-text'>
+    <text>我们成立于1999年创立14年来，一直秉承“原创”的摄影理念，在国内有成都、上海、武汉、广州、昆明、三亚、青岛等10家直营店和330家技术加盟店，员工人数从最开始的7人发展到现在的1200多名，建立了完善的产业链。公司的核心品牌为现代都市新贵提供优秀婚纱摄影服务。其时尚、经典、高贵的品牌气质，持续获得精英阶层的青睐。</text>
+  </view>
+  我们的作品坚持“以时尚诠释经典，以艺术感人心魄”的理念，将经典事物与现代时尚糅合，带给人们超凡动容且独一无二的艺术体验。
+</view>
+<view class='container0'>
+  <view class='center-title'>
+    <text class='lines'></text>
+    <text class='f16'>联系我们</text>
+    <text class='lines'></text>
+  </view>
+  <view class='container1'>
+    地址：河南省郑州市金水区东风路
+    <view>
+      <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACDQzZzaBSismYypAzA8ODxAbA.png'></image>
+    </view>
+  </view>
+  <view class='container1'>
+    电话：020-000000   000-000000 
+    <view>
+      <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACDOzZzaBSjwmJ_cATA8ODxAbA.png'></image>
+    </view>
+  </view>
+  <view class='container1'>
+    QQ：8886699
+    <view>
+      <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACDNzZzaBSjo85iJBjA8ODxAbA.png'></image>
+    </view>
+  </view>
+  <view class='container1'>
+    邮箱：hzee_li@163.com
+    <view>
+      <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACDLzZzaBSjCtfwvMDw4PEBs.png'></image>
+    </view>
+  </view>
+  <view class='container-c'>
+    <view class='con-text'>
+      <text class='f12'>
+        5秒填写，告诉我们您的拍摄时间和需求，2分钟为您私人订制一个省钱、省心的计划，5分钟发送您的专属玩法，我们就是这么省心，几个步骤轻松搞定！
+      </text>
+    </view>
+  </view>
+  <navigator url='../join/join' class="dingzhi">马上定制</navigator>
+</view>

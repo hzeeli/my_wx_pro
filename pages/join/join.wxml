@@ -1,0 +1,33 @@
+<!--pages/join/join.wxml-->
+<view class='form'>
+  <form bindsubmit="formSubmit">
+    <view>* 姓名：</view> 
+    <view>
+      <input  name="uname"  maxlength='12' type='text'></input>
+    </view>
+    <view>* 电话：</view>
+    <view>
+      <input  name="phone"  maxlength='16'  type='number'></input>
+    </view>
+    <view>* 日期</view>
+    <view class='picker'>
+      <picker mode="date" value="{{date}}" start="2018-10-31" end="2019-12-31" bindchange="bindDateChange">
+          当前选择：{{date}}
+      </picker>
+    </view>
+    <view>* 选择的活动：</view>
+    <view class='radios'>
+      <radio-group>
+        <label  wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view>* 其他需求</view>
+    <textarea class='textarea'  adjust-position show-confirm-bar style='height:200rpx' name="require"  maxlength='120'></textarea>
+    <view>
+      <button formType="submit">提交</button>
+    </view>
+  </form>
+</view>
+

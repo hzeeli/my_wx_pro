@@ -1,0 +1,24 @@
+<!--pages/activity/activity.wxml-->
+<view class="ac-top"  bindtap='jumpToJoin'>
+  <image  src='http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACCzvZzaBSjPiYjwBjDuBTiuB0Bs.jpg'  class='p1'></image>
+  <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACDMvZzaBSjB7NfYBTCHAzhfQGw.png'  class='p2'></image>
+  <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACD7vZzaBSid3qy5BTDfAjgzQGw.png'  class='p3'></image>
+  <view class='top-text'>
+    <view class='t1'>情侣主题摄影活动</view>
+    <view class='t2'>
+      <view>因为有你，所以就算世界黑白</view>
+      <view>你也是最耀眼的______</view>
+    </view>
+    <view class='t4'>即日起到至12月30日</view>
+  </view>
+  <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACCVwJzaBSjwrLuiAjBUOB1AbA.png'  class='p4'></image>
+</view>
+<view class='container0'  bindtap='jumpToJoin'>
+  <image class='c1' src='http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACC-wpzaBSjYzchDMO4FOPQDQGw.jpg'></image>
+  <image  class='c2' src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACDCwpzaBSiXrtUoMIoBOPECQGw.png'></image>
+  <text class='t3'>生活随拍 ,记录曾经</text>
+</view>
+<view class='container0'  bindtap='jumpToJoin'>
+  <image class='c3' src='http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACCexpzaBSiInIyUATDuBTj0A0Bs.jpg'></image>
+  <image class='c4' src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACDrxpzaBSiw0s8jMLEDOM8BQGw.png'></image>
+</view>

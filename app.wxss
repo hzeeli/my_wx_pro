@@ -1,0 +1,64 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+  background-color: #F4F4F4;
+}
+/*字体*/
+.f12{
+  font-size: 12px;
+}
+.f14{
+  font-size: 14px;
+}
+.f16{
+  font-size: 16px;
+}
+/*横线*/
+.lines{
+  display: inline-block;
+  width: 12px;
+  height: 1px;
+  background-color: #d9d9d9;
+  vertical-align: middle;
+  margin: 0 25rpx;
+}
+.center-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom:1rpx solid #ddd  ;
+}
+.container0{
+  margin-top: 20rpx;
+  background-color: #fff;
+  font-size: 12px;
+}
+.container1{
+  padding: 25rpx;
+  position: relative;
+}
+/*列表*/
+.cell{
+  background-color:#fff;
+  font-size:16px;
+}
+.cell-item{
+  border-bottom:1rpx solid #ddd; 
+  padding:20rpx 30rpx;
+}
+/*取消滚动条*/
+::-webkit-scrollbar {
+     width: 0;
+     height: 0;
+     color: transparent;
+}

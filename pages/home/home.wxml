@@ -1,0 +1,63 @@
+<!--pages/home/home.wxml-->
+<!--图片轮播-->
+<view class="slider">
+   <swiper autoplay interval="3500" indicator-dots="{{false}}">
+     <swiper-item wx:for="{{imagelist}}" wx:for-item="image" wx:key="index">
+        <image src="{{image}}" mode="aspectFill" lazy-load width="375" height="150" />
+     </swiper-item>
+   </swiper>
+</view>
+<view class='container0'>
+  <view class='center-title'>
+    <text class='lines'></text>
+    <text class='f16'>最新主题</text>
+    <text class='lines'></text>
+  </view>
+  <view class='container1'>
+    <scroll-view class="box" scroll-x="true" >
+      <view class="box-item" >
+        <image src='http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACDsrZzaBSiF3KJkMIoCOL8CQGw.jpg'  mode="aspectFit" lazy-load />
+        <text>旅游摄影</text>
+      </view>
+      <view class="box-item" >
+        <image src="http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACDnrZzaBSjy463nATCKAji-AkBs.jpg"  mode="aspectFit" lazy-load /> 
+        <text>个人写真</text>
+      </view>
+      <view class="box-item" >
+        <image src="http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACDprZzaBSiM-PrYBTCKAji-AkBs.jpg"  mode="aspectFit" lazy-load />
+        <text>闺蜜摄影</text>
+      </view>
+      <view class="box-item" >
+        <image src="http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACD1rpzaBSjUyOLuBDCKAji-AkBs.jpg"  mode="aspectFit" lazy-load />
+        <text>情侣摄影</text>
+      </view>
+  </scroll-view>
+  </view>
+</view>
+<view class='container0'>
+  <view class='center-title'>
+    <text class='lines'></text>
+    <text class='f16'>微电影</text>
+    <text class='lines'></text>
+  </view>
+  <view class='container1'>
+    <video  src='http://video.artiz.com.cn/artiz.mp4' controls='true' class='video1'></video>
+  </view>
+  <view class='container1'>
+    <navigator  url='../movie/movie' class='morevideo'>点击查看更多微电影</navigator>
+  </view>
+</view>
+<view class='container0'>
+  <view class='center-title'>
+    <text class='lines'></text>
+    <text class='f16'>服务中心</text>
+    <text class='lines'></text>
+  </view>
+  <view class='container1'>
+    <image class='fuwu-img' src='http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACDqrZzaBSiG6-vRAzDuBTi2A0Bs.jpg'></image>
+    <navigator class='a_map a3_1' url='../map/map'>地图导航</navigator>
+    <button class='a_map a3_2' bindtap="calling">咨询客服</button>
+    <button class='a_map a3_3' bindtap="calling">拨打电话</button>
+  </view>
+</view>
+

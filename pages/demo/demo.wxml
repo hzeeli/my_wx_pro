@@ -1,0 +1,83 @@
+<!--pages/demo/demo.wxml-->
+<view class='container-p'>
+  <view class='p-item'>
+    <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACD5s5zaBSjor9SdBjB4OHhAbA.png'></image>
+    <text>旅游拍摄</text>
+  </view>
+  <view class='p-item'>
+    <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACD3s5zaBSigiJMDMHg4eEBs.png'></image>
+    <text>个人写真</text>
+  </view>
+  <view class='p-item'>
+    <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACD6s5zaBSi46MOIBjB4OHhAbA.png'></image>
+    <text>闺蜜摄影</text>
+  </view>
+  <view class='p-item'>
+    <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACD2s5zaBSj5tfz-BjB4OHhAbA.png'></image>
+    <text>情侣拍摄</text>
+  </view>
+  <view class='p-item'>
+    <image  src='http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACCFs5zaBSi83c-vBjB4OHhAbA.jpg'></image>
+    <text>广州拍</text>
+  </view>
+  <view class='p-item'>
+    <image  src='http://218566.s81i.faiusr.com/4/108/AFEIxqsNEAQYACD8s5zaBSj3wcOKBzB4OHhAbA.png'></image>
+    <text>中国拍</text>
+  </view>
+  <view class='p-item'>
+    <image  src='http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACCCs5zaBSiY45KlAzB4OHhAbA.jpg'></image>
+    <text>全球拍</text>
+  </view>
+  <view class='p-item'>
+    <image  src='http://218566.s81i.faiusr.com/2/108/AFEIxqsNEAIYACCDs5zaBSi44vPrBDB4OHhAbA.jpg'></image>
+    <text>全家福</text>
+  </view>
+</view>
+<view class='container0'>
+  <view class='center-title'>
+    <text class='lines'></text>
+    <text class='f16'>个人写真</text>
+    <text class='lines'></text>
+  </view>
+  <view class='container-p2'>
+    <view  wx:for="{{imagelist1}}" wx:for-item="image"  class='previewImage'>
+      <image src="{{image}}" data-src="{{image}}" bindtap="previewImage1"></image>
+    </view>
+  </view>
+</view>
+<view class='container0'>
+  <view class='center-title'>
+    <text class='lines'></text>
+    <text class='f16'>闺蜜拍摄</text>
+    <text class='lines'></text>
+  </view>
+  <view class='container-p2'>
+    <view  wx:for="{{imagelist2}}" wx:for-item="image"  class='previewImage'>
+      <image src="{{image}}" data-src="{{image}}" bindtap="previewImage2"></image>
+    </view>
+  </view>
+</view>
+<view class='container0'>
+  <view class='center-title'>
+    <text class='lines'></text>
+    <text class='f16'>情侣摄影</text>
+    <text class='lines'></text>
+  </view>
+  <view class='container-p2'>
+    <view  wx:for="{{imagelist3}}" wx:for-item="image"  class='previewImage'>
+      <image src="{{image}}" data-src="{{image}}" bindtap="previewImage3"></image>
+    </view>
+  </view>
+</view>
+<view class='container0'>
+  <view class='center-title'>
+    <text class='lines'></text>
+    <text class='f16'>旅游摄影</text>
+    <text class='lines'></text>
+  </view>
+  <view class='container-p2'>
+    <view  wx:for="{{imagelist4}}" wx:for-item="image"  class='previewImage'>
+      <image src="{{image}}" data-src="{{image}}" bindtap="previewImage4"></image>
+    </view>
+  </view>
+</view>

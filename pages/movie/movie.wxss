@@ -1,0 +1,8 @@
+/* pages/movie/movie.wxss */
+.slider,.slider image,.slider swiper{
+     width:100%;
+     height:390rpx;   /*图片测量出结果*/
+}
+video{
+  width: 100%;
+}

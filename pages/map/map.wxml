@@ -1,0 +1,3 @@
+<!--pages/map/map.wxml-->
+<map id='map' longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" controls="{{controls}}" circles="{{circles}}" ></map>
+

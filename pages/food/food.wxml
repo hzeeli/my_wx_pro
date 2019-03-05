@@ -1,0 +1,12 @@
+<view class="food-list"> 
+   <view class='list-item' wx:for="foodData" wx:key="index"> 
+   <view> 
+    <image src='{{item.img}}' model="aspectFit"  lazy-load='true'></image> 
+   </view> 
+    <view> 
+      <text>{{item.name}}</text> 
+      <text>￥{{item.price}}</text> 
+    </view> 
+     
+   </view> 
+</view>
